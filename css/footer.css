@@ -1,0 +1,11 @@
+.footer {
+    font-family: custom-font;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.footer .signiture {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}

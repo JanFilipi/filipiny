@@ -1,0 +1,69 @@
+
+
+.background-left {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    /* background-image: url('../img/philippines.png');   */
+    /* background-color: red; */
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+}
+
+.background-middle {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    /* background-image: url('../img/prague.png');   */
+    /* background-color: green; */
+    transform: translateX(0%);
+    transition: transform 0.5s ease;
+    
+}
+
+
+.background-right {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    /* background-image: url('../img/london.png');   */
+    /* background-color: blue; */
+    transform: translateX(100%);
+    transition: transform 0.5s ease;
+}
+
+.darkness {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000053;
+}
+
+.bg-gradient-left {
+    position: absolute;
+    height: 100vh;
+    width: 30%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    z-index: 200;
+}
+
+.bg-gradient-right {
+    position: absolute;
+    height: 100vh;
+    width: 30%;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to left, rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    z-index: 200;
+}
